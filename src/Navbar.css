@@ -1,0 +1,99 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s;
+}
+
+.navbar.scrolled {
+    background-color: #000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+.App {
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%; /* Set the width to 80% of its container */
+    max-width: 960px; /* Maximum width of the content */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners for the sections */
+    background-color: #ffffff; /* White background for content areas */
+  }
+  
+  h1, h2 {
+    color: #333; /* Dark grey color for headings */
+  }
+  
+  ul {
+    text-align: left; /* Align list items to the left */
+    padding-left: 20px; /* Give some padding on the left of list */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Margin bottom for list items */
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Disabled button color */
+  }
